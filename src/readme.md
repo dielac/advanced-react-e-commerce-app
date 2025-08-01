@@ -1,119 +1,49 @@
-# FakeStore App V2
+# Advanced React E-Commerce App
 
-This is a simple and beginner-friendly e-commerce app built with React and Vite.  
-It includes product management, a shopping cart, and a full CI/CD pipeline.
-
----
-
-## Live Site
-
-You can view the app here:  
-https://vercel.com/diela-camajs-projects/ci-cd-pipeline-for-react-e-commerce-app-pw21
+This is a beginner-friendly e-commerce web app made using React, Redux Toolkit, and React Query. It fetches product and category data from FakeStoreAPI and lets you view, filter, and manage products. It also includes a shopping cart and working CI/CD pipeline.
 
 ---
 
-## Features
+##  Features
 
-**Product Pages:**
-- View a list of all products
-- Click on a product to see more details
-- Add a new product using a form
-- Edit an existing product
-- Delete a product with confirmation
-
-**Cart:**
-- Add items to the shopping cart
-- See total price and quantity
-- Remove items from the cart
-- Quantity updates and totals calculated
-
-**Category Filter:**
-- Filter products by category using a dropdown menu
-
-**State Management:**
-- Redux Toolkit is used for the shopping cart
-- React Query is used for API data fetching and caching
-
-**Styling:**
-- Bootstrap is used for layout and styling
-- Navbar and footer are included
-
-**Testing:**
-- Unit tests for Home and ProductCard components
-- Integration test for the cart
-- All tests use Jest and React Testing Library
-
-**CI/CD:**
-- GitHub Actions runs tests and builds the app
-- The app is deployed to Vercel automatically if tests pass
+- Product listing from FakeStore API
+- Category filter dropdown
+- Product detail page
+- Add to cart functionality
+- Cart page with product count and total
+- Responsive layout using Bootstrap
+- Global state with Redux Toolkit
+- Data fetching with React Query
+- CI/CD pipeline with GitHub Actions
+- Deployed to Vercel
 
 ---
 
-## Tech Stack
+## Used
 
-- React
-- Vite
+- React (Vite)
+- TypeScript
 - Redux Toolkit
-- React Router DOM
 - React Query
 - Bootstrap
-- Axios
-- Jest
-- React Testing Library
-- GitHub Actions
-- Vercel
+- React Router DOM
+- Jest & React Testing Library
+- GitHub Actions for CI/CD
+- Vercel for deployment
 
 ---
 
-## Folder Structure
 
-fakestore-appv2/
-├── src/
-│ ├── components/
-│ │ ├── Home.jsx
-│ │ ├── ProductList.jsx
-│ │ ├── ProductDetails.jsx
-│ │ ├── AddProduct.jsx
-│ │ ├── EditProduct.jsx
-│ │ ├── Cart.jsx
-│ │ └── CartLink.jsx
-│ ├── store/
-│ │ ├── cartSlice.js
-│ │ ├── cartSelectors.js
-│ │ └── store.js
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-├── .github/workflows/
-│ └── main.yml (CI/CD pipeline)
-├── package.json
-├── vite.config.js
-└── README.md
-
-
----
-
-## How to Run This Project
-
-1. Clone this repository
-
-git clone https://github.com/dielac/CI-CD-Pipeline-for-React-E-Commerce-App
-cd fakestore-appv2
-
-
-2. Install all dependencies
-
+🔧 How to Run Locally
+Clone the repo:
+git clone https://github.com/dielac/advanced-react-e-commerce-app.git
+Go to the folder:
+cd advanced-react-e-commerce-app
+Install dependencies:
 npm install
-
-
-3. Start the development server
-
+Start the dev server:
 npm run dev
 
-
-4. To run the tests
-
-npm run test
 
 
 ---
